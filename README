@@ -1,0 +1,26 @@
+== HashBag
+
+Homepage::  hashbag.rubyforge.org[http://hashbag.rubyforge.org/]
+Author::    Bob Aman  (mailto:bob@sporkmonger.com)
+Copyright:: Copyright © 2008 Bob Aman
+License::   MIT
+
+== Description
+
+HashBag is a collection of useful specialized Hash subclasses.
+
+== Features
+
+* A feature list goes here.
+
+== Example Usage
+
+# Some code goes here.
+
+== Requirements
+
+* HashBag has no dependencies.
+
+== Install
+
+* sudo gem install hashbag
