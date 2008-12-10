@@ -5,3 +5,4 @@ $:.unshift(lib_dir)
 $:.uniq!
 
 require "hashbag"
+require "spec/hashbag/shared_hash_spec"

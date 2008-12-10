@@ -22,3 +22,6 @@
 # --
 
 require "hashbag/version"
+require "hashbag/case_insensitive_hash"
+
+include HashBag
