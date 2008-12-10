@@ -230,17 +230,5 @@ module HashBag
         accu
       end
     end
-
-    ##
-    # @see Hash#to_s
-    def to_s
-      return self.to_hash.to_s
-    end
-
-    ##
-    # @see Hash#inspect
-    def inspect
-      return self.to_hash.inspect
-    end
   end
 end
