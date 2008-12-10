@@ -220,12 +220,6 @@ module HashBag
     end
 
     ##
-    # @see Hash#invert
-    def invert
-      return self.to_hash.invert
-    end
-
-    ##
     # Converts to a normal Hash object.  The key labels are used as the
     # Hash keys.
     #
