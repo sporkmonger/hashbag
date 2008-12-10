@@ -31,7 +31,7 @@ describe HashBag::CaseInsensitiveHash,
 
   it "should assign values correctly" do
     @hash["content-type"] = "first"
-    @hash["CONTENT-TYPE"] = "second"
+    @hash.store("CONTENT-TYPE", "second")
     @hash["Content-Type"] = "third"
     @hash.to_hash.should == {
       "Content-Type" => "third",
