@@ -191,10 +191,6 @@ module HashBag
     end
 
     ##
-    # @see Hash#merge!
-    alias_method :merge!, :update
-
-    ##
     # @see Hash#dup
     def dup
       hash = super
