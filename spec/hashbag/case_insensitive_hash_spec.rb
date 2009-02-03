@@ -29,6 +29,12 @@ describe HashBag::CaseInsensitiveHash,
     }
   end
 
+  it "should allow comparisons to non-Hash objects" do
+    @hash.should_not == nil
+    @hash.should_not == []
+    @hash.should_not == "bogus"
+  end
+
   it "should assign values correctly" do
     @hash["content-type"] = "first"
     @hash.store("CONTENT-TYPE", "second")

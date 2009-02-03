@@ -69,6 +69,7 @@ module HashBag
     ##
     # @see Hash#==
     def ==(hash)
+      return false if !hash.respond_to?(:to_hash)
       self_hash = self.to_hash.inject({}) do |accu, (key, value)|
         accu[key.to_str.downcase] = value
         accu
